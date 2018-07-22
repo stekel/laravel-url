@@ -1,0 +1,31 @@
+{
+    "name": "stekel/laravel-url",
+    "type": "library",
+    "description": "A personal way of handling url management on Laravel models.",
+    "license": "MIT",
+    "homepage": "https://github.com/stekel/laravel-url",
+    "keywords": [
+        "Laravel",
+        "Url"
+    ],
+    "require": {
+        "illuminate/support": "~5",
+        "php" : "~7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "stekel\\LaravelUrl\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "stekel\\LaravelUrl\\": "tests"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
